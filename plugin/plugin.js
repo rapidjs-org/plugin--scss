@@ -5,19 +5,21 @@ const flecss = require("flecss");
 
 module.exports = (rJS, filesystem, config, isDev, $PATH) => {
     const configWithDefaults = {
+        inPath: ".",
         outPath: ".",
         flecssLibrary: "standalone",
-
+        
         ...config
     };
-
+    
     const transpiler = flecss.createTranspiler({
         development: isDev,
         library: configWithDefaults.flecssLibrary
     });
-    
+
     const files = [];
     filesystem
+    .get(configWithDefaults.inPath)
     .traverse((file) => {
         if(/^_/.test(file.name)) return;
         

@@ -1,3 +1,6 @@
 {
-    "package": "../../../plugin/plugin.js"
+    "package": "../../../plugin/plugin.js",
+    "config": {
+        "outPath": "assets/"
+    }
 }

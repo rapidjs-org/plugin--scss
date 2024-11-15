@@ -12,7 +12,7 @@
     "test-app:view": "open http://localhost:7777"
   },
   "devDependencies": {
-    "@rapidjs.org/rjs": "^0.3.2"
+    "@rapidjs.org/rjs": "^0.3.3"
   },
   "dependencies": {
     "flecss": "^0.16.0"
