@@ -14,7 +14,8 @@ module.exports = (rJS, filesystem, config, isDev, $PATH) => {
     
     const transpiler = flecss.createTranspiler({
         development: isDev,
-        library: configWithDefaults.flecssLibrary
+        library: configWithDefaults.flecssLibrary,
+        variables: (filesystem.get("__overrides.scss") ?? { contents: "" }).contents
     });
 
     const files = [];
