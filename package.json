@@ -1,6 +1,8 @@
 {
   "name": "@plugins.rapidjs.org/scss",
   "version": "0.1.0",
+  "author": "Thassilo Martin Schiepanski",
+  "license": "MIT",
   "keywords": [
     "rjs-plugin"
   ],
