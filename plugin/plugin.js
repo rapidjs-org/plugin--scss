@@ -1,9 +1,9 @@
-const { join } = require("path");
+import { join } from "path";
 
-const flecss = require("flecss");
+import flecss from "flecss";
 
 
-module.exports = (rJS, filesystem, config, isDev, $PATH) => {
+export default function(rJS, filesystem, config, isDev, $PATH) {
     const configWithDefaults = {
         inPath: ".",
         outPath: ".",
@@ -33,4 +33,4 @@ module.exports = (rJS, filesystem, config, isDev, $PATH) => {
     });
 
     return files;
-};
+}

@@ -2,6 +2,7 @@
   "name": "@plugins.rapidjs.org/scss",
   "version": "0.1.0",
   "author": "Thassilo Martin Schiepanski",
+  "type": "module",
   "license": "MIT",
   "keywords": [
     "rjs-plugin"
@@ -14,7 +15,7 @@
     "test-app:view": "open http://localhost:7777"
   },
   "devDependencies": {
-    "@rapidjs.org/rjs": "^0.3.3"
+    "@rapidjs.org/rjs": "^0.4.1"
   },
   "dependencies": {
     "flecss": "^0.16.0"
