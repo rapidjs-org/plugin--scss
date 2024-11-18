@@ -1,6 +1,6 @@
 ## [rJS](https://rapidjs.org) Plugin: SCSS
 
-More maintainable stylesheets with [SCSS](https://sass-lang.com/).
+Maintainable stylesheets with [SCSS](https://sass-lang.com/).
 
 ### Install
 
@@ -26,8 +26,31 @@ npm i rapidjs-org/plugin--scss
       │  ├─ _header.scss
       │  └─ _footer.scss
       └─ /pages
-         ├─ index.html
-         └─ rates.html
+         ├─ index.scss
+         └─ rates.scss
+```
+
+<sub><code>src/scss/pages/rates.scss</code></sub>
+
+``` scss
+body {
+  h1 {
+    color: red;
+  }
+}
+```
+
+<sub><code>public/rates.html</code></sub>
+
+``` html
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/rates.css">
+  </head>
+  <body>
+    <h1>Rates</h1>
+  </body>
+</html>
 ```
 
 ### Configure
