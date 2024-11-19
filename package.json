@@ -18,6 +18,6 @@
     "@rapidjs.org/rjs": "^0.4.1"
   },
   "dependencies": {
-    "flecss": "^0.16.0"
+    "flecss": "^0.x"
   }
 }

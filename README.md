@@ -1,4 +1,4 @@
-## [rJS](https://rapidjs.org) Plugin: SCSS
+## SCSS &hairsp; <a href="https://rapidjs.org" target="_blank"><img src="https://rapidjs.org/assets/img/plugin-badge.svg" alt="rJS Plugin"></a>
 
 Maintainable stylesheets with [SCSS](https://sass-lang.com/).
 
